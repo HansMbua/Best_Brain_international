@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    display: flex;
+    /* flex-wrap: wrap */
+    border: .5px solid rebeccapurple;
+    margin-top: 20%;
+
+}
+
+.col-1{
+    width: 33,333333333%;
+    
+}
+.col-2{
+    width:16,666666667;
+}
+
+/* new commits  */
+
+.col-3{
+    width:25%;
+}
+.col-4{
+    width:33,333333333%;
+}
+
+.col-5{
+    width:41,666666667%;
+}
+
+.col-7{
+    width:58,333333333%;
+}
+
