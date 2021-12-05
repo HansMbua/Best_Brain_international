@@ -21,6 +21,35 @@ h6{
     font-size: 1rem;
 }
 
+P{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.fs-1{
+    font-size:calc(1.375 + 1.5vw);
+}
+.fs-2{
+    font-size:calc(1.325 + 0.9vw);
+}
+.fs-3{
+    font-size:calc(1.3rem + 0.6vw);
+}
+.fs-4{
+    font-size:calc(1.275 + 0.3vw);
+}
+.fs-5{
+    font-size:1rem;
+}
+.fs-6{
+    font-size:1.25rem;
+}
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
 
 .display-1{
     font-size: calc(1.625rem + 4.5vw);
