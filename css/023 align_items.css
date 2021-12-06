@@ -1,0 +1,21 @@
+
+.flexbox-start {
+    align-items: flex-start;
+}
+
+.flexbox-end {
+    align-items: flex-end;
+    
+}
+.flexbox-end .item-A {
+    align-self: flex-start;
+    }
+.flexbox-stretch {
+    align-items: stretch;
+}
+.flexbox-center {
+    align-items: center;
+}
+.flexbox-baseline {
+    align-items: baseline;
+}
