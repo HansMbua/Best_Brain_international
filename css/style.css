@@ -144,12 +144,11 @@ P{
     transition: all .1s;  
   }
      #Home .btn-purple:hover span{
-         margin-left:  20px;
+         margin-left:  25px;
          transition: all .1s; 
      }
      .img-fluid{
          width: 100%;
-         padding-left: 70px;
          border-top-right-radius: 20px;
          border-bottom-right-radius: 20px;
        
@@ -157,10 +156,21 @@ P{
      }
 
      #Home{
-         padding-top: 150px;
-         padding-bottom: 150px;
+         padding-top: 125px;
+         padding-bottom: 125px;
          background-image: url(/img/hero-bg.png);
          background-size: cover;
          background-position:center center;
          
+     }
+
+     @media  screen and (max-width:767.98px) {
+         #Home .row{
+           text-align: center;
+             
+         }
+         #Home img{
+             margin-top: 75px;
+            
+         }
      }
