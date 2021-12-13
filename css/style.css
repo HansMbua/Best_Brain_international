@@ -110,10 +110,35 @@ P{
         font-size: 1.5rem;
     }
 }
+
+ /* landing page */
+
+ #landingPage{
     
-    .purple{
-        color : #012970;
-    }
+     padding-top: 125px;
+     padding-bottom: 125px;
+     background-image: url(/img/landing.jpg);
+     background-size: cover;
+     background-position:center center;
+ }
+ .white{
+     color: #f8f9fa;
+ }
+ 
+ .text-aline{
+     text-align: center;
+     font-size: 64px;
+     line-height: 120%;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+     font-family: "Work Sans", sans-serif;
+     font-weight: 700;
+     color: rgb(255, 255, 255);
+
+     max-width: none;
+ }
+    
+  
     .gray{
         color:#444;
     }
