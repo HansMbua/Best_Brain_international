@@ -127,13 +127,13 @@ P{
  
  .text-aline{
      text-align: center;
-     font-size: 64px;
+     font-size: 55px;
      line-height: 120%;
      margin-bottom: 20px;
      text-transform: uppercase;
      font-family: "Work Sans", sans-serif;
      font-weight: 900;
-     color: rgb(255, 255, 255);
+     color: rgb(45, 48, 55);
 
 
      max-width: none;
@@ -190,6 +190,9 @@ P{
 
          
      }
+     #Home img{
+        box-shadow: 60px -16px rgb(212, 212, 212);
+     }
 
      @media  screen and (max-width:767.98px) {
          #Home .row{
@@ -198,6 +201,7 @@ P{
          }
          #Home img{
              margin-top: 75px;
+           
             
          }
      }
