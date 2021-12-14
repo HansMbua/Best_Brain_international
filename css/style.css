@@ -272,3 +272,28 @@ P{
         transition: all .1s;
     }
    }
+   /* transforming the img to have the hover function */
+   #img_value{
+       transform: scale(0.8);
+       transition: all 0.1s;
+   }
+   #img_value:hover{
+    transform: scale(0.7);
+    transition: all 0.1s;
+}
+.fs-italic{
+    font-style: italic;
+}
+.purple{
+    color: #1C061A;
+}
+
+#box_shadow{
+    box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.163);
+    padding: 20px;
+}
+/* hovering for everything on the page  */
+#values .container .row #box_shadow:hover img{
+    transform: scale(0.7);
+    transition: all 0.1s;
+}

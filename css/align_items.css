@@ -44,3 +44,6 @@ h1 {
 .flexbox-baseline {
     align-items: baseline;
 }
+.text_center{
+    text-align: center;
+}
