@@ -297,3 +297,20 @@ P{
     transform: scale(0.7);
     transition: all 0.1s;
 }
+@media screen and (max-width:767.98px) {
+    #values .container .row .col-xxl-3{
+        margin-bottom: 30px;
+    }
+}
+
+.m_icon{
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 991.98px) {
+   #icons .col-xxl-2{
+        margin-bottom: 20px;
+
+    }
+}
+
