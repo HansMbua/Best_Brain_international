@@ -232,6 +232,12 @@ P{
     .topnav a{
         display: none;
     }
+
+    .topnav a.icon:hover{
+        background-color: #4154f1;
+        
+    }
+    
     } 
     
     
@@ -254,13 +260,13 @@ P{
                 display: none;
             }
         }
-        .logo img {
+        /* .logo img {
             width: 91px;
             float: left;
             margin-left: 20px;
             border-radius: 29px;
            
-          }
+          } */
     
 
      #Home{
