@@ -217,7 +217,10 @@ P{
         float: left;
         margin-left: 20px;
     }
-
+     
+    .topnav a.icon{
+        transition: all 1s;
+    }
    
     /* at media quary */
     
@@ -235,7 +238,12 @@ P{
 
     .topnav a.icon:hover{
         background-color: #4154f1;
-        
+        color: white;
+        width: 20px;
+
+    }
+    .topnav a.icon{
+        transition: all 1s;
     }
     
     } 
