@@ -1,9 +1,9 @@
-function myfuction(){
-   var x =  document.getElementById("myTopnav") 
+function myfunction(){
+   var x =  document.getElementById("navBar") 
 
-    if(x.className === "topnav"){
+    if(x.className === "myTopnavul "){
         x.className += " responsive";
     }else{
-        x.className = "topnav";
+        x.className = "myTopnavul ";
     }
 }
