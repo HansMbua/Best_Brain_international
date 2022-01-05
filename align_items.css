@@ -12,6 +12,15 @@
     border: 2px solid black;
 }
 
+.item-A {
+   
+}
+.item-B {
+   
+}
+.item-C {
+
+}
 .item h2 {
     font-size: 3em;
     text-align: center;
@@ -43,7 +52,4 @@ h1 {
 }
 .flexbox-baseline {
     align-items: baseline;
-}
-.text_center{
-    text-align: center;
 }
